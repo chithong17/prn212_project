@@ -1,12 +1,15 @@
-﻿using System;
+﻿using BusinessObjects.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Interfaces
+namespace DataAccessLayer.Repositories.Interfaces
 {
-    internal interface IFeedbackRepository
+    public interface IFeedbackRepository
     {
+        List<Feedback> GetAll();
+        void Add(Feedback feedback);
     }
 }

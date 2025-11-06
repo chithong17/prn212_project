@@ -1,12 +1,16 @@
-﻿using System;
+﻿using BusinessObjects.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Interfaces
+namespace DataAccessLayer.Repositories.Interfaces
 {
-    internal interface IPaymentRepository
+    public interface IPaymentRepository
     {
+        List<Payment> GetAll();
+        Payment GetByOrderId(int orderId);
+        void Add(Payment payment);
     }
 }
