@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTDocuments\\Semester_5\\PRN212\\Project\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\C#\\PRN212\\PRN212_Project\\project_demo\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj": {}
   },
   "projects": {
-    "D:\\FPTDocuments\\Semester_5\\PRN212\\Project\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\C#\\PRN212\\PRN212_Project\\project_demo\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTDocuments\\Semester_5\\PRN212\\Project\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\C#\\PRN212\\PRN212_Project\\project_demo\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\FPTDocuments\\Semester_5\\PRN212\\Project\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTDocuments\\Semester_5\\PRN212\\Project\\SmartRestaurantSystem\\BusinessObjects\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\C#\\PRN212\\PRN212_Project\\project_demo\\SmartRestaurantSystem\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\C#\\PRN212\\PRN212_Project\\project_demo\\SmartRestaurantSystem\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
