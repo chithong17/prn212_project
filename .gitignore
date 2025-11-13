@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build dirs
+bin/
+obj/
+Debug/
+Release/
+
+# WPF / .NET temp files
+*.cache
+*.pdb
+*.dbmdl
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Others
+*.tmp
+*.log
