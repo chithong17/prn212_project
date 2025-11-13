@@ -1,0 +1,35 @@
+name: RestaurantWPF CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore RestaurantWPF.csproj
+
+    - name: Build project
+      run: dotnet build RestaurantWPF.csproj --configuration Release --no-restore
+
+    - name: Publish build
+      run: dotnet publish RestaurantWPF.csproj -c Release -r win-x64 --self-contained false -o ./publish
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: RestaurantWPF-Build
+        path: ./publish
